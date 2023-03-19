@@ -4,46 +4,96 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inliene Style</title>
+        <title>Div-span</title>
 
         <style  type="text/css">
-            p
+            .img
             {
-                color: red;   
+                width: 250px;
             }
 
-            h1
+            #topo
             {
-                color: blue;
+                color: violet;
+                background: gray;
             }
 
-            .para
+            #conteudo
             {
-                color: rgb(47, 139, 43);
+                color: royalblue;
+                background: rgb(14, 13, 13);
             }
 
-            #menu
+            .produto
             {
-                color: rgb(255, 230, 1);
+                background: rgb(255, 0, 0);
+                color: rgb(255, 0, 212);
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #rodape
+            {
+                color: violet;
+                background: gray;
+            }
+
+            #ass
+            {
+                background: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
             }
 
         </style>
 
     </head>
     <body>
+        <div id="topo">
+            <img class="img" src="https://i.pinimg.com/originals/85/7d/35/857d35b81602cb2508a89e07511b299a.gif">
 
-        <div>
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contatos</li>
+                <li>em</li>
+            </ul>
+        </div>
+
+        <div id="conteudo">
+            <div class="produto">
+                Produto 1
+            </div>
+
+            <div class="produto">
+                Produto 2
+            </div>
+
+            <div class="produto">
+                Produto 3
+            </div>
+
             <div>
-                <ol id="menu">
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                </ol>
+                Produto 4
             </div>
         </div>
 
-        <h1>Estilo CSS (cascading style sheets)</h1>
+        <div id="rodape">
+            Todos os direitos reservados
+        </div>
+
+        <span id="ass">
+            Txe Txe Txe Txe
+        </span>
+
+        <span>
+            Txe Txe Txe Txe
+        </span>
+    </body>
+</html>
+
+
+<!-- 
+    <h1>Estilo CSS (cascading style sheets)</h1>
 
         <P class="para">
             Lorem <strong>dolor sit amet, consectetur</strong> adipiscing elit. Sed ut laoreet ipsum,
@@ -66,5 +116,4 @@
             sollicitudin velit sollicitudin sit amet. </strong>Integer sed erat sit amet justo dictum 
             sagittis.
         </P>
-    </body>
-</html>
+-->
