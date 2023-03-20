@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comida</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Comida</h1>
+    </header>
+    <section id="food-info">
+      
+    </section>
+
+    <script>
+      const food = [
+        { name: "Pizza", origin: "Italy" },
+        { name: "Tacos", origin: "Mexico" },
+        { name: "Sushi", origin: "Japan" }
+      ];
+
+      const foodInfoElement = document.getElementById("food-info");
+
+      for (const item of food) {
+        const pElement = document.createElement("p");
+        pElement.textContent = `${item.name} originated in ${item.origin}.`;
+        foodInfoElement.appendChild(pElement);
+      }
+    </script>
+  </body>
+</html>
