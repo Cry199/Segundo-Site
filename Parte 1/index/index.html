@@ -4,27 +4,35 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Div-span</title>
+        <title>Estilos de textos</title>
 
         <style  type="text/css">
 
-            div
-            {
-                width: 50%;
-            }
             .img
             {
                 width: 10em;
             }
 
-            #topo, #conteudo
+            .negrito
             {
-                /*border: 5px solid red;*/
-                border-color: red violet;
-                border-width: 1px 15px;
-                border-style: solid double;
-
+                font-weight: bold;
             }
+            
+            .italico
+            {
+                font-style: italic;
+            }
+
+            .formatacao
+            {
+                /*
+                text-decoration: overline;
+                text-decoration: underline; text-decoration: line-through;
+                */
+               
+            }
+
+            
 
         </style>
 
@@ -42,16 +50,16 @@
         </div>
 
         <div id="conteudo">
-            <div class="produto">
+            <div class="formatacao">
                 Produto 1
             </div>
-            <div class="produto">
+            <div class="italico">
                 Produto 2
             </div>
-            <div class="produto">
+            <div class="formatacao">
                 Produto 3
             </div>
-            <div>
+            <div class="negrito">
                 Produto 4
             </div>
         </div>
