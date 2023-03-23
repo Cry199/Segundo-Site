@@ -1,45 +1,25 @@
-.conteudo1
+a:link, a:visited
 {
-    border: 1px solid red;
-    background: orange;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    z-index: 0;
+    color: red;
 }
 
-.conteudo2
+a:visited
 {
-    border: 1px solid red;
-    background: green;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 5em;
-    left: 5em;
-    z-index: 1;
+    color: red;
 }
 
-.conteudo3
+a:hover
 {
-    border: 1px solid red;
-    background: rgb(0, 132, 255);
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 10em;
-    left: 10em;
-    z-index: 2;
+    color: #fff;
+    background-color: red;
 }
 
-.conteudo4
+a
 {
-    border: 1px solid red;
-    background: rgb(253, 8, 171);
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 15em;
-    left: 15em;
-    z-index: 3;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #ff00ea;
 }
