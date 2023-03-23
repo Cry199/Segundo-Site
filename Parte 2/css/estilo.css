@@ -1,38 +1,45 @@
-body
+.conteudo1
 {
-    background: #007fc7;
-}
-
-#container
-{
-    background: #fff;
-    width: 900px;
-    margin: 10px auto;
-    padding: 10px;
-    position: relative;
-}
-
-p
-{
-    width: 300px;
-}
-
-.absolute
-{
-    background: #fff;
-    border: 2px solid red;
+    border: 1px solid red;
+    background: orange;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    top: 1em;
-    right: 1em;
+    z-index: 0;
 }
 
-
-.fixed
+.conteudo2
 {
-    margin: 0px;
-    background: #fff;
-    border: 2px solid rgb(0, 255, 42);
-    position: fixed;
-    top: 1em;
-    left: 1em;
+    border: 1px solid red;
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    z-index: 1;
+}
+
+.conteudo3
+{
+    border: 1px solid red;
+    background: rgb(0, 132, 255);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10em;
+    left: 10em;
+    z-index: 2;
+}
+
+.conteudo4
+{
+    border: 1px solid red;
+    background: rgb(253, 8, 171);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    z-index: 3;
 }
