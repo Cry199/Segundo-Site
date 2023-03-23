@@ -1,17 +1,44 @@
-a:link, a:visited
+/* Geral */ /*  */
+
+*
 {
-    color: red;
+    margin: 0;
+    padding: 0;
 }
 
-a:visited
+body
 {
-    color: red;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: gray;
 }
 
-a:hover
+h1
 {
-    color: #fff;
-    background-color: red;
+    color: red;
+    font-size: 2.5em;
+}
+
+h2
+{
+    color:aqua;
+}
+
+h3
+{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+p
+{
+    padding: 5px;
+}
+
+ul
+{
+    padding: 5px;
 }
 
 a
@@ -19,7 +46,102 @@ a
     text-decoration: none;
 }
 
-a:active
+a:link, a:visited
 {
-    color: #ff00ea;
+    color: rgb(180, 25, 25); 
 }
+
+a:hover
+{
+    color: aqua;
+    background: white;
+    text-decoration: underline;
+}
+
+/* Layout */
+
+#area-cabecalho
+{
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu
+{
+    padding: 10px;
+}
+
+#area-principal
+{
+    width: 820px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-conteudo
+{
+    width: 560px;
+    float: left;
+}
+
+#area-lateral
+{
+    width: 240px;
+    float: right;
+}
+
+#rodape
+{
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background: gainsboro;
+}
+
+.conteudo
+{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.data-conteudo
+{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral
+{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.postagem-lateral
+{
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+/* Menu */
+
+#area-menu a:link, #area-menu a:visited
+{
+    color: white; 
+    padding: 10px 12px;
+}
+
+#area-menu a:hover
+{
+    color: aqua;
+    background: white;
+    text-decoration: none;
+}
+
+/*  */
+
