@@ -9,6 +9,7 @@ body
     width: 900px;
     margin: 10px auto;
     padding: 10px;
+    position: relative;
 }
 
 p
@@ -16,10 +17,22 @@ p
     width: 300px;
 }
 
-.relative
+.absolute
 {
-    border: 1px solid red;
-    position: relative;
-    top: 30px;
-    left: 100px;
+    background: #fff;
+    border: 2px solid red;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+
+.fixed
+{
+    margin: 0px;
+    background: #fff;
+    border: 2px solid rgb(0, 255, 42);
+    position: fixed;
+    top: 1em;
+    left: 1em;
 }
