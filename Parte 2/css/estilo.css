@@ -6,6 +6,12 @@ body
     justify-content: center;
     align-items: center;
 }
+div
+{
+    border:  1px solid red;
+    display: inline-block;
+}
+
 
 
 #principal
