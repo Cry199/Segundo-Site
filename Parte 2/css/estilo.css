@@ -10,24 +10,24 @@ body
 {
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: gray;
+    background: #CEDCDF;
 }
 
 h1
 {
-    color: red;
+    color: #D2A3C5;
     font-size: 2.5em;
 }
 
 h2
 {
-    color:aqua;
+    color:#D2A3C5;
 }
 
 h3
 {
-    color: #565656;
-    background: #ccc;
+    color: #D2A3C5;
+    background: #40423F;
     padding: 5px;
 }
 
@@ -38,6 +38,7 @@ p
 
 ul
 {
+    margin: 5px;
     padding: 5px;
 }
 
@@ -48,12 +49,12 @@ a
 
 a:link, a:visited
 {
-    color: rgb(180, 25, 25); 
+    color: #D2A3C5; 
 }
 
 a:hover
 {
-    color: aqua;
+    color: #40423F;
     background: white;
     text-decoration: underline;
 }
@@ -62,26 +63,29 @@ a:hover
 
 #area-cabecalho
 {
-    background-color: aqua;
-    padding: 15px;
-    text-align: center;
+    background: #976477;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
 }
 
 #area-logo, #area-menu
 {
-    padding: 10px;
+    padding: 20px;
 }
 
 #area-principal
 {
-    width: 820px;
+    width: 920px;
     margin: 0 auto;
     padding: 15px;
 }
 
 #area-conteudo
 {
-    width: 560px;
+    width: 660px;
     float: left;
 }
 
@@ -94,12 +98,13 @@ a:hover
 #rodape
 {
     clear: both;
+    display: block;
     padding: 15px;
     text-align: center;
-    background: gainsboro;
+    background: #976477;
 }
 
-.conteudo
+.conteudo, .card
 {
     background: white;
     padding: 20px;
@@ -128,7 +133,24 @@ a:hover
     padding: 5px;
 }
 
+.mangas img
+{
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
 /* Menu */
+
+#logo-texto
+{
+    color: black;
+}
+
+#area-menu
+{
+    font-size: 1.5em;
+}
 
 #area-menu a:link, #area-menu a:visited
 {
@@ -138,9 +160,15 @@ a:hover
 
 #area-menu a:hover
 {
-    color: aqua;
+    color: #40423F;
     background: white;
     text-decoration: none;
+}
+
+#logoImg
+{
+    padding-right: 10px;
+    pointer-events: none;
 }
 
 /*  */

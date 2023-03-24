@@ -2,4 +2,4 @@
 
 Parte 1 link https://segundo-site-p1.caua2.repl.co/
 
-Parte 2 link -
+Parte 2 link https://segundo-site-p2.caua2.repl.co/
